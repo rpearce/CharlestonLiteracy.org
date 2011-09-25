@@ -61,7 +61,7 @@
 
  .pastelCrayon-first {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
-   color: #72FE95;
+   color: #8C8CFF;
   }
 
  .pastelCrayon-second {
@@ -71,13 +71,17 @@
 
  .pastelCrayon-third {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
-   color: #8C8CFF;
+   color: #72FE95;
   }
 
   img {
     border: 5px solid #cfcfb8;
     box-shadow: 4px 4px 8px #222222;
   }
+
+  .nav-list { margin-top: 20px; }
+
+  #main-image-section { margin-top:25px; }
 
   @font-face {
       font-family: 'pastelRegular';
