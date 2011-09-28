@@ -1,4 +1,3 @@
-1.) Change colors of buttons to pastely sort of gradient buttons on hover.
-2.) Make each button hover color be the normal state button when on that page.
-3.) Get background image and whatnot from russell.
-4.) Add rest of pages once layout is complete.
+1.) Make each button hover color be the normal state button when on that page.
+2.) Get background image and whatnot from russell.
+3.) Add rest of pages once layout is complete.
