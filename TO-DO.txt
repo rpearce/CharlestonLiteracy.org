@@ -1,5 +1,4 @@
-1.) Get sinatra app of this working on heroku.
-2.) Change colors of buttons to pastely sort of gradient buttons on hover.
-3.) Make each button hover color be the normal state button when on that page.
-4.) Get background image and whatnot from russell.
-5.) Add rest of pages once layout is complete.
+1.) Change colors of buttons to pastely sort of gradient buttons on hover.
+2.) Make each button hover color be the normal state button when on that page.
+3.) Get background image and whatnot from russell.
+4.) Add rest of pages once layout is complete.
