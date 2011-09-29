@@ -195,6 +195,9 @@
 	  line-height: 21px;
 	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+	a.button.selected {
+		background: #eee;
+  }
 	a.button:hover,
 	button:hover,
 	input[type="submit"]:hover,
