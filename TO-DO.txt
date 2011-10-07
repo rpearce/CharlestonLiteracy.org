@@ -1,3 +1,2 @@
-1.) Make each button hover color be the normal state button when on that page.
-2.) Get background image and whatnot from russell.
-3.) Add rest of pages once layout is complete.
+1.) Get images worked out.
+2.) Add rest of pages once layout is complete.
