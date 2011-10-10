@@ -1,2 +1,7 @@
-1.) Get images worked out.
-2.) Add rest of pages once layout is complete.
+1. Put a div up in the top picture with a quote or something (aside) about CVFL.
+2. Add arrows to left/right side.
+3. Add information img to bottom right of page (little i).
+4. Do slideshow sort of thing.
+5. Get images, make same size.
+
+6. Add rest of pages once layout is complete.

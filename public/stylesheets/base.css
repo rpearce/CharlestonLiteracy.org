@@ -52,7 +52,7 @@
 /* #Basic Styles
 ================================================== */
   body {
-    background-image: url('../images/page-bkg.jpg');
+    background-image: url('../images/page-bkg2.jpg');
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -61,10 +61,9 @@
 
   .image-header {
     text-align: center;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-
+/*    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);*/
+/*    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);*/
+/*    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);*/
   }
 
   footer {
@@ -92,14 +91,16 @@
    color: #9aaaa4;
   }
 
-  img.top-image {
+/*  img.top-image {
     border: 5px solid #cfcfb8;
     box-shadow: 4px 4px 8px #222222;
-  }
+  }*/
+
+/*  #main-image-section { margin-top:25px; }*/
 
   .nav-list { margin-top: 20px; }
 
-  #main-image-section { margin-top:25px; }
+
 
   @font-face {
       font-family: 'pastelRegular';
