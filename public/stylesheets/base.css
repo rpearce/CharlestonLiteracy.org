@@ -81,16 +81,19 @@
  .pastelCrayon-first {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
    color: #8C8CFF;
+   text-decoration: underline;
   }
 
  .pastelCrayon-second {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
    color: #FF9797;
+   text-decoration: underline;
   }
 
  .pastelCrayon-third {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
    color: #9aaaa4;
+   text-decoration: underline;
   }
 
 /*  #main-image-section { margin-top:25px; }*/
