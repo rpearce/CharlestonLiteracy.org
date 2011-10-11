@@ -125,7 +125,7 @@
         .container .offset-first-nav                { padding-left: 60px;  }
 
         /* Misc */
-        .top-image { width: 700px; }
+        .slideshow { width: 700px; }
     }
 
 
@@ -176,9 +176,9 @@
         .container .offset-first-nav { padding-left: 60px; }
 
         /* Misc */
-        #main-image-section { margin-top: 10px; }
+/*        #main-image-section { margin-top: 10px; }*/
         #to-help { display: block; }
-        .top-image { width: 300px; }
+        .slideshow { width: 300px; }
         .nav-list { margin-top: 5px; }
         ul li { margin: 0 ; }
         hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0; height: 0; }
@@ -219,7 +219,7 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
-        .top-image { width: 420px; }
+        .slideshow { width: 420px; }
     }
 
 

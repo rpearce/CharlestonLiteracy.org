@@ -59,8 +59,8 @@
 		-webkit-text-size-adjust: 100%;
   }
 
-  .image-header {
-    text-align: center;
+  .slideshow {
+/*    text-align: center;*/
   }
 
   img.top-image {
@@ -96,11 +96,7 @@
    text-decoration: underline;
   }
 
-/*  #main-image-section { margin-top:25px; }*/
-
   .nav-list { margin-top: 20px; }
-
-
 
   @font-face {
       font-family: 'pastelRegular';
@@ -475,3 +471,5 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
   .left { float: left; }
+  .hidden { display: none; }
+  .center { text-align:center; }
