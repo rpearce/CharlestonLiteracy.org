@@ -176,9 +176,9 @@
         .container .offset-first-nav { padding-left: 60px; }
 
         /* Misc */
-/*        #main-image-section { margin-top: 10px; }*/
+        #main-image-section { margin-top: 10px; }
         #to-help { display: block; }
-        .slideshow { width: 300px; }
+        .slideshow { display: none;; }
         .nav-list { margin-top: 5px; }
         ul li { margin: 0 ; }
         hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0; height: 0; }
