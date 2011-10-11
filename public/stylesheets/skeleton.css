@@ -66,7 +66,7 @@
     .container .offset-by-thirteen              { padding-left: 780px; }
     .container .offset-by-fourteen              { padding-left: 840px; }
     .container .offset-by-fifteen               { padding-left: 900px; }
-    .container .offset-first-nav                { padding-left: 40px;  }
+    .container .offset-first-nav                { padding-left: 20px;  }
 
     /* Misc */
     #to-help { display: none; }
@@ -173,7 +173,7 @@
         .container .offset-by-thirteen,
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
-        .container .offset-first-nav { padding-left: 60px; }
+        .container .offset-first-nav { padding-left: 40px; }
 
         /* Misc */
         #main-image-section { margin-top: 10px; }
