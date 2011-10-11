@@ -61,19 +61,21 @@
 
   .image-header {
     text-align: center;
-/*    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);*/
-/*    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);*/
-/*    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);*/
+  }
+
+  img.top-image {
+    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   }
 
   footer {
-    height: 56px;
-    position:fixed;
-    width: 100%;
-    bottom: 0;
-    color: #cecece;
     text-align: center;
-    background-image: url('../images/footer.png');
+    color: rgba(128,128,128,.8);
+/*    background-image: url('../images/footer.png');*/
+/*    box-shadow: inset 0 0 12px rgba(0,0,0,1);*/
+/*    opacity:0.4;*/
+/*    filter:alpha(opacity=40); /* For IE8 and earlier */*/
   }
 
  .pastelCrayon-first {
@@ -90,11 +92,6 @@
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
    color: #9aaaa4;
   }
-
-/*  img.top-image {
-    border: 5px solid #cfcfb8;
-    box-shadow: 4px 4px 8px #222222;
-  }*/
 
 /*  #main-image-section { margin-top:25px; }*/
 
