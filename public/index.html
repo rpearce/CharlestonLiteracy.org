@@ -27,8 +27,8 @@
 
   <!-- JavaScript
   ================================================== -->
-  <!-- include jQuery library -->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="javascripts/tabs.js"></script>
   <!-- include Cycle plugin -->
   <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 
@@ -57,58 +57,102 @@
   <div class="container">
     <nav class="sixteen columns">
       <ul class="tabs nav-list">
-        <li class="left offset-first-nav"><a href="index.html" class="button home active">Home</a></li>
-        <li class="left offset-by-one"><a href="donate.html" class="button donate">Donate</a></li>
-        <li class="left offset-by-one"><a href="#" class="button volunteer">Volunteer</a></li>
-        <li class="left offset-by-one"><a href="#" class="button about-us">About Us</a></li>
-        <li class="left offset-by-one"><a href="#" class="button resources">Resources</a></li>
-        <li class="left offset-by-one"><a href="#" class="button partnerships">Partnerships</a></li>
+        <li class="left offset-first-nav"><a href="#home" class="home active">Home</a></li>
+        <li class="left offset-by-one"><a href="#donate" class="donate">Donate</a></li>
+        <li class="left offset-by-one"><a href="#" class="volunteer">Volunteer</a></li>
+        <li class="left offset-by-one"><a href="#" class="about-us">About Us</a></li>
+        <li class="left offset-by-one"><a href="#" class="resources">Resources</a></li>
+        <li class="left offset-by-one"><a href="#" class="partnerships">Partnerships</a></li>
       </ul>
+      <!-- <ul class="tabs nav-list">
+        <li class="active"><a href="#home" class="active">Home</a></li>
+        <li class=""><a href="#donate" class="donate">Donate</a></li>
+        <li class=""><a href="#" class="volunteer">Volunteer</a></li>
+        <li class=""><a href="#" class="about-us">About Us</a></li>
+        <li class=""><a href="#" class="resources">Resources</a></li>
+        <li class=""><a href="#" class="partnerships">Partnerships</a></li>
+      </ul> -->
     </nav>
-    <section class="one-third column">
-      <h2 class="pastelCrayon-first">You Can Help</h1>
-      <p>What can you do to help end illiteracy in the Charleston area?</p>
-        <ul class="square">
-          <li><a href="donate.html">Donate to Charleston Volunteers for Literacy</a></li>
-          <li><a href="#">Become a tutor</a></li>
-          <li><a href="http://www.twitter.com">Spread the word!</a></li>
-          <li>Questions? Call us at 843-999-9999</li>
-        </ul>
-    </section>
-    <section class="one-third column">
-      <h2 class="pastelCrayon-second">Book Buddies</h1>
-      <p>Our Book Buddies Volunteers are changing the lives of 2nd graders at six of the most needy elementary schools in Charleston County, South Carolina:</p>
-      <ul class="square">
-        <li>Burns Elementary</li>
-        <li>James Simons Elementary</li>
-        <li>Mary Ford Elementary</li>
-        <li>Memminger Elementary</li>
-        <li>Mitchell Elementary</li>
-        <li>Sanders-Clyde Elementary</li>
-      </ul>
-      <p>Want to know more about Book Buddies?
-      <br />
-      <a href="#">Click here!</a></p>
-    </section>
-    <section class="one-third column">
-      <h2 class="pastelCrayon-third">Fact</h1>
-      <p>"Millions of American children reach fourth grade without learning to read proficiently. The shortfall is especially pronounced among low-income children.  Of the fourth graders who took the National Assessment of Educational Progress (NAEP) reading test in 2009, <strong>83% of children from low-income families</strong>--and 85% of low-income students who attend high-poverty schools--<strong>failed to reach the 'proficient' level</strong>."</p>
-      <p>~Annie E. Casey Foundation</p>
-    </section>
-    <section id="to-help">
-      <p class="pastelCrayon-first" style="font-size:25px; font-weight:bold">*To Help, <a href="volunteer.html">volunteer</a> or <a href="donate.html">donate</a>.</p>
-    </section>
-    <div class="clear"></div>
+
+
+    <ul class="tabs-content">
+      <!-- HOME
+      ====================== -->
+      <li class="active" id="home">
+        <section class="one-third column">
+          <h2 class="pastelCrayon-first">You Can Help</h1>
+          <p>What can you do to help end illiteracy in the Charleston area?</p>
+            <ul class="square">
+              <li><a href="donate.html">Donate to Charleston Volunteers for Literacy</a></li>
+              <li><a href="#">Become a tutor</a></li>
+              <li><a href="http://www.twitter.com">Spread the word!</a></li>
+              <li>Questions? Call us at 843-999-9999</li>
+            </ul>
+        </section>
+        <section class="one-third column">
+          <h2 class="pastelCrayon-second">Book Buddies</h1>
+          <p>Our Book Buddies Volunteers are changing the lives of 2nd graders at six of the most needy elementary schools in Charleston County, South Carolina:</p>
+          <ul class="square">
+            <li>Burns Elementary</li>
+            <li>James Simons Elementary</li>
+            <li>Mary Ford Elementary</li>
+            <li>Memminger Elementary</li>
+            <li>Mitchell Elementary</li>
+            <li>Sanders-Clyde Elementary</li>
+          </ul>
+          <p>Want to know more about Book Buddies?
+          <br />
+          <a href="#">Click here!</a></p>
+        </section>
+        <section class="one-third column">
+          <h2 class="pastelCrayon-third">Fact</h1>
+          <p>"Millions of American children reach fourth grade without learning to read proficiently. The shortfall is especially pronounced among low-income children.  Of the fourth graders who took the National Assessment of Educational Progress (NAEP) reading test in 2009, <strong>83% of children from low-income families</strong>--and 85% of low-income students who attend high-poverty schools--<strong>failed to reach the 'proficient' level</strong>."</p>
+          <p>~Annie E. Casey Foundation</p>
+        </section>
+        <section id="to-help">
+          <p class="pastelCrayon-first" style="font-size:25px; font-weight:bold">*To Help, <a href="volunteer.html">volunteer</a> or <a href="donate.html">donate</a>.</p>
+        </section>
+        <div class="clear"></div>
+      </li>
+
+      <!-- Donate
+      ====================== -->
+      <li class="" id="donate">
+        <section class="two-thirds column">
+          <h2 class="pastelCrayon-second">Your Donation Counts</h1>
+          <p>Charleston Volunteers for Literacy hires reading teachers to write lesson plans for students and to train and guide tutors. We purchase books and materials for lessons and extra books for students to read and keep in their homes.</p>
+          <p>Here's how your donation counts:</p>
+          <ul class="square">
+            <li>$25&nbsp&nbsp&nbsp&nbsp = &nbspTutoring supplies for one child - letters, pencils, word cards</li>
+            <li>$100&nbsp&nbsp = &nbsp25 tutoring books that can be used for 10 years</li>
+            <li>$200&nbsp&nbsp = &nbspTesting materials for diagnosing reading needs at 1 school</li>
+            <li>$500&nbsp&nbsp = &nbspSponsors a student</li>
+            <li><strong>1 hour per week</strong>&nbsp = &nbspan opportunity to <strong>change a child's life</strong></li>
+          </ul>
+        </section>
+        <section class="one-third column">
+          <h2 class="pastelCrayon-first">You Can Help</h1>
+          <p>Make your donations to:</p>
+            <ul style="list-style-type:none;">
+              <li>Coastal Community Foundation</li>
+              <li>Designation: Charleston Volunteers for Literacy</li>
+              <li>635 Rutledge Avenue, Suite 201</li>
+              <li>Charleston, SC 29403</li>
+            </ul>
+        </section>
+        <div class="clear"></div>
+      </li>
+    </ul>
   </div><!-- container -->
 
   <footer>
     <div>© 2009 Charleston Volunteers for Literacy | info@charlestonliteracy.org</div>
   </footer>
 
+
 	<!-- JS
 	================================================== -->
-	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script src="javascripts/tabs.js"></script>
+
 
 <!-- End Document
 ================================================== -->
