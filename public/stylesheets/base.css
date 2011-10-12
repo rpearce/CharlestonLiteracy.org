@@ -59,6 +59,10 @@
 		-webkit-text-size-adjust: 100%;
   }
 
+  #title {
+    display: none;
+  }
+
   .slideshow {
     margin: auto;
   }
