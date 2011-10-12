@@ -2,3 +2,7 @@
 3. Add information img to bottom right of page (little i).
 
 6. Add rest of pages once layout is complete.
+
+
+
+IDEA TO SAY "WANT TO KNOW MOAR?" -> CLICK AND IT GIVES A SOLID POPUP WITH INFO ABOUT THE KID or DISPLAYS BENEATH
