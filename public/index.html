@@ -41,16 +41,18 @@
 
 </head>
 <body>
-  <script type="text/javascript">
-    $('.slideshow').cycle({
-      fx: 'fade',
-      pause: 2 });
-  </script>
-  <div class="slideshow">
-    <img src='images/kid_reading2.jpg' alt='kid_reading2' class="top-image" />
-    <img src='images/woman-girl-reading.jpg' alt='woman-girl-reading' class="top-image" style="display:none" />
+  <div id="slide-container">
+    <div class="slideshow">
+      <img src='images/kid_reading2.jpg' alt='kid_reading2' class="top-image" />
+      <img src='images/woman-girl-reading.jpg' alt='woman-girl-reading' class="top-image" style="display:none" />
+    </div>
+    <script type="text/javascript">
+      $('.slideshow').before('<span id="slideshow-controls">').cycle({
+        fx: 'fade',
+        timeout: 8000,
+        pager: '#slideshow-controls'});
+    </script>
   </div>
-
   <!-- Primary Page Layout
   ================================================== -->
 

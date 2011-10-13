@@ -126,6 +126,7 @@
 
         /* Misc */
         .slideshow { width: 700px; }
+        #slideshow-controls { right: 123px; }
     }
 
 
@@ -179,18 +180,12 @@
         #title { display: block; }
         #to-help { display: block; }
         .slideshow { display: none; }
+        #slideshow-controls { display: none; }
         .nav-list { margin-top: 5px; }
         ul.tabs li a {
           padding:5px;
         }
         hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0; height: 0; }
-/*        a.button{ background: none; border: none; padding: 0; font-size: 13px; }
-        a.button.home:hover { background: none; border: none; }
-        a.button.donate:hover { background: none; border: none; }
-        a.button.about-us:hover { background: none; border: none; }
-        a.button.volunteer:hover { background: none; border: none; }
-        a.button.resources:hover { background: none; border: none; }
-        a.button.partnerships:hover { background: none; border: none; }*/
     }
 
 
@@ -222,6 +217,7 @@
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
         .slideshow { width: 420px; }
+        #slideshow-controls { right: 73px; }
     }
 
 
