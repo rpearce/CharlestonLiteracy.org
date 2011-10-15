@@ -177,7 +177,8 @@
         .container .offset-first-nav { padding-left: 0; }
 
         /* Misc */
-        #title { display: block; }
+        .topbar .brand { margin: auto; }
+        .topbar li { display: none; }
         #to-help { display: block; }
         .slideshow { display: none; }
         #slideshow-controls { display: none; }
@@ -216,6 +217,8 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
+
+        /* Misc */
         .slideshow { width: 420px; }
         #slideshow-controls { right: 73px; }
     }
