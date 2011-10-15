@@ -195,6 +195,13 @@
    text-decoration: underline;
   }
 
+ .pastelCrayon-first.no-underline {
+   font-family: "pastelRegular", Helvetica, Arial, sans-serif;
+   font-size: 25px;
+   color: #8C8CFF;
+   text-decoration: none;
+  }
+
  .pastelCrayon-second {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
    color: #FF9797;

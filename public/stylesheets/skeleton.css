@@ -182,8 +182,15 @@
         .slideshow { display: none; }
         #slideshow-controls { display: none; }
         .nav-list { margin-top: 5px; }
-        ul.tabs li a {
-          padding:5px;
+        ul.tabs {
+          margin: 0;
+        }
+        ul.tabs li {
+          width: 100px;
+          padding: 0;
+        }
+        ul.tabs a {
+         padding: 0;
         }
         hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0; height: 0; }
     }
