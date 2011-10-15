@@ -177,7 +177,6 @@
         .container .offset-first-nav { padding-left: 0; }
 
         /* Misc */
-        .topbar .brand { margin: auto; }
         .topbar li { display: none; }
         #to-help { display: block; }
         .slideshow { display: none; }
