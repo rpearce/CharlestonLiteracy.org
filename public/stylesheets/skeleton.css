@@ -188,8 +188,9 @@
         ul.tabs li {
           width: 100px;
           padding: 0;
+          text-align: center;
         }
-        ul.tabs a {
+        ul.tabs li a {
          padding: 0;
         }
         hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0; height: 0; }
