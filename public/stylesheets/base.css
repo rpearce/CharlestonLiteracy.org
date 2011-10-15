@@ -286,11 +286,11 @@
   #slideshow-controls a.activeSlide { color: #404040; background: #f5f5f5 }
   #slideshow-controls a:focus { outline: none; }
 
-  img.top-image {
+/*  img.scale-with-grid {
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-  }
+  }*/
 
 /* #Buttons
 ================================================== */
