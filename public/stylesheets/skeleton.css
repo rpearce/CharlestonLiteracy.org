@@ -69,7 +69,6 @@
     .container .offset-first-nav                { padding-left: 35px;  }
 
     /* Misc */
-    #make-difference { display: none; }
 
 /* #Tablet (Landscape)
 ================================================== */
@@ -181,7 +180,6 @@
 
         /* Misc */
         .topbar li { display: none; }
-        #make-difference { display: block; }
         .slideshow { display: none; }
         #slideshow-controls { display: none; }
         .nav-list { margin-top: 5px; }
