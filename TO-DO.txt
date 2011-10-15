@@ -1,7 +1,10 @@
-1. Put a div up in the top picture with a quote or something (aside) about CVFL.
-3. Add information img to bottom right of page (little i).
+Priority | Description
+----------------------
+1        | Get faulty links working (if not in nav bar, links to hide/show divs don't work)
+1        | Add rest of pages and get them looking solid on all views.
+1        |  Put a div up in the top picture with a quote or something (aside) about CVFL.
+3        | Add information img to bottom right of page (little i).
 
-6. Add rest of pages once layout is complete.
 
 
 
