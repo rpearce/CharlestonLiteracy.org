@@ -74,7 +74,7 @@
 /* #Tablet (Landscape)
 ================================================== */
 
-    @media only screen and (min-width: 768px) and (orientation:landscape)
+    @media only screen and (min-width: 961px) and (orientation:landscape)
         .container                                  { width: 768px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
