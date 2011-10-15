@@ -125,7 +125,7 @@
         .container .offset-first-nav                { padding-left: 60px;  }
 
         /* Misc */
-        img..top-image { width: 768px; }
+        img.top-image { width: 768px; }
         #slideshow-controls { right: 123px; }
     }
 
