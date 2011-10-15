@@ -141,52 +141,17 @@
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   }
 
-  #slide-container {
-    width: 1140px;
-    margin: auto;
-    margin-top: 39px;
-  }
-
   #title {
     display: none;
   }
 
-  .slideshow {
-    margin: auto;
-  }
-
-  #slideshow-controls {
-    position:absolute;
-    top: 53px;
-    right: 200px;
-    z-index: 4;
-  }
-
-  #slideshow-controls a {
-    color: #f5f5f5;
-    border: 1px solid #404040;
-    background: #404040;
-    text-decoration: none;
-    margin: 0 5px;
-    padding: 2px 4px;
-    }
-
-  #slideshow-controls a.activeSlide { color: #404040; background: #f5f5f5 }
-  #slideshow-controls a:focus { outline: none; }
-
-  img.top-image {
-    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  #make-difference {
+    text-align: center;
   }
 
   footer {
     text-align: center;
     color: rgba(128,128,128,.8);
-/*    background-image: url('../images/footer.png');*/
-/*    box-shadow: inset 0 0 12px rgba(0,0,0,1);*/
-/*    opacity:0.4;*/
-/*    filter:alpha(opacity=40); /* For IE8 and earlier */*/
   }
 
  .pastelCrayon-first {
@@ -195,10 +160,10 @@
    text-decoration: underline;
   }
 
- .pastelCrayon-first.no-underline {
+ .pastelCrayon-bottom.no-underline {
    font-family: "pastelRegular", Helvetica, Arial, sans-serif;
    font-size: 25px;
-   color: #8C8CFF;
+   color: #C98767;
    text-decoration: none;
   }
 
@@ -293,6 +258,40 @@
 		max-width: 100%;
 		height: auto; }
 
+  #slide-container {
+    width: 1140px;
+    margin: auto;
+    margin-top: 39px;
+  }
+
+  .slideshow {
+    margin: auto;
+  }
+
+  #slideshow-controls {
+    position:absolute;
+    top: 53px;
+    right: 200px;
+    z-index: 4;
+  }
+
+  #slideshow-controls a {
+    color: #f5f5f5;
+    border: 1px solid #404040;
+    background: #404040;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 2px 4px;
+    }
+
+  #slideshow-controls a.activeSlide { color: #404040; background: #f5f5f5 }
+  #slideshow-controls a:focus { outline: none; }
+
+  img.top-image {
+    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
 
 /* #Buttons
 ================================================== */

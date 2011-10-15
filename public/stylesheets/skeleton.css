@@ -69,7 +69,7 @@
     .container .offset-first-nav                { padding-left: 35px;  }
 
     /* Misc */
-    #to-help { display: none; }
+    #make-difference { display: none; }
 
 
 /* #Tablet (Portrait)
@@ -178,7 +178,7 @@
 
         /* Misc */
         .topbar li { display: none; }
-        #to-help { display: block; }
+        #make-difference { display: block; }
         .slideshow { display: none; }
         #slideshow-controls { display: none; }
         .nav-list { margin-top: 5px; }
