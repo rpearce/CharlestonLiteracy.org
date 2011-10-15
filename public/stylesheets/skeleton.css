@@ -128,7 +128,7 @@
         .container .offset-first-nav                { padding-left: 60px;  }
 
         /* Misc */
-        #slide-container { width: 100%; }
+        #slide-container { max-width: 100%; }
         #slideshow-controls { right: 75px; }
     }
 
