@@ -93,8 +93,7 @@
   .topbar h3 a, .topbar .brand {
     float: left;
     display: block;
-    padding: 8px 20px 12px;
-    margin-left: -20px;
+    padding: 8px 20px 12px 0px;
     color: #fff;
     font-size: 20px;
     font-weight: 200;
