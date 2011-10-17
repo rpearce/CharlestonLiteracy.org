@@ -53,7 +53,7 @@
 ===================================================*/
 
   .topbar {
-    height: 40px;
+    height: 37px;
     position: fixed;
     top: 0;
     left: 0;
@@ -93,9 +93,10 @@
   .topbar h3 a, .topbar .brand {
     float: left;
     display: block;
-    padding: 8px 20px 12px 0px;
+    padding: 8px 20px 0px 0px;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: "Monotype Corsiva", cursive;
     font-weight: 200;
     line-height: 1;
   }
