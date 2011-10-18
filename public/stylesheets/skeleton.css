@@ -179,6 +179,8 @@
         .container .offset-first-nav { padding-left: 0; }
 
         /* Misc */
+        body { background-image: url('../images/page-bkg2.jpg'); }
+        .topbar { height: 30px; }
         .topbar li { display: none; }
         .slideshow { display: none; }
         #slideshow-controls { display: none; }

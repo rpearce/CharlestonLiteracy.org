@@ -131,7 +131,7 @@
 /* #Basic Styles
 ================================================== */
   body {
-    background-image: url('../images/page-bkg2.jpg');
+/*    background-image: url('../images/page-bkg2.jpg');*/
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #404040;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -257,9 +257,9 @@
   img.scale-with-grid {
     max-width: 100%;
     height: auto;
-    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+/*    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);*/
   }
 
   #slide-container {
